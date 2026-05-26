@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, Twitter, Facebook, Linkedin, Mail } from "lucide-react";
+import { Camera, Send, Globe, Users, Mail } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 export function Footer() {
@@ -23,7 +23,7 @@ export function Footer() {
               A registered non-profit working across 30+ communities to make sure every woman has the tools to build the life she dreams of.
             </p>
             <div className="mt-6 flex gap-3">
-              {[Instagram, Twitter, Facebook, Linkedin, Mail].map((Icon, i) => (
+              {[Camera, Send, Globe, Users, Mail].map((Icon, i) => (
                 <a key={i} href="#" className="grid h-10 w-10 place-items-center rounded-full glass transition hover:bg-gradient-primary hover:text-white hover:scale-110">
                   <Icon size={16} />
                 </a>
